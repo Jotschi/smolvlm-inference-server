@@ -34,7 +34,7 @@ class Request(BaseModel):
     image_data: str | None = None
 
 
-@app.post("/caption/")
+@app.post("/caption")
 async def caption(item: Request):
 
     if item.image_data and item.image_url:

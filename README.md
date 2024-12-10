@@ -27,10 +27,10 @@ podman run \
 ```json
 {
   "prompt": "Describe the image",
-  "image_url": "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/SmolVLM.png"
+  "image_url": "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/SmolVLM.png",
+  "image_data": "dGVzd…"
 }
 ```
-
 
 ## Build
 
